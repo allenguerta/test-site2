@@ -109,12 +109,29 @@
         .nav-button:hover {
             background-color: #2980b9;
         }
+
+        .profile-image {
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .profile-pic {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Allen Guerta</h1>
-        <p class="subtitle">Software Developer</p>
+        <p class="subtitle">Artist</p>
+        <div class="profile-image">
+            <img src="profile.jpg" alt="Allen Guerta" class="profile-pic">
+        </div>
         <div class="nav-buttons">
             <a href="page1.html" class="nav-button">Page 1</a>
             <a href="page2.html" class="nav-button">Page 2</a>
